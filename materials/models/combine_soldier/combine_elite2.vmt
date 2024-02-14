@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\combine_soldier\Combine_Elite2"
+	"$translucent" "1"
+}

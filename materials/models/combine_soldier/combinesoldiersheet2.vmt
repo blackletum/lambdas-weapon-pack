@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\combine_soldier\combinesoldiersheet2"
+	"$translucent" "1"
+}

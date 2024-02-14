@@ -26030,6 +26030,210 @@
 			"mouse_pressed_sound"	"vo/medic_sf13_influx_big03.wav"
 			"drop_sound"			"vo/medic_sf13_influx_big03.wav"
 			}
+		"10164"
+		{
+			"name"	"Doomguy Scout"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 1 Demon Exterminator"
+			"item_name"	"Doomguy Scout"
+			"item_description"	"Model by The Medineer"
+			"item_slot"	"misc2"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/doomguy_scout/scout.mdl"
+			"model_player"	"models/player/doomguy_scout/scout.mdl"
+			"used_by_classes"
+			{
+				"scout" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0.8"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"scout"	"1"
+					"shoes_socks"	"1"
+					"headphones"	"1"
+					"hat"	"1"
+					"dogtags"	"1"
+				}
+			}
+		}
+		"10168"
+		{
+			"name"	"Tracer"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 1 I'm Already Tracer"
+			"item_name"	"Tracer"
+			"item_description"	"Model by Voxxx"
+			"item_slot"	"misc2"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/tracer_scout/scout.mdl"
+			"model_player"	"models/player/tracer_scout/scout.mdl"
+			"used_by_classes"
+			{
+				"scout" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"1.2"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"scout"	"1"
+					"shoes_socks"	"1"
+					"headphones"	"1"
+					"hat"	"1"
+					"dogtags"	"1"
+				}
+			}
+		}
+		"10175"
+		{
+			"name"		"Headcrab"
+			"prefab"		"halloween2013 hat"
+			"item_type_name"	"Level 1 Friendo"
+			"item_name"		"Headcrab"
+			"item_description"		"Mod by Nullpoint"
+			"item_slot"	"head"
+			"equip_region"		"whole_head"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+				}
+			}
+			"image_inventory"	"models/workshop/player/items/all_class/headcrab/hw2013_the_magical_mercenary_sniper"
+			"model_player"		"models/workshop/player/items/all_class/headcrab/hw2013_the_magical_mercenary_sniper.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"10177"
+		{
+			"name"	"DOOMguy"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 99 Demon Exterminator"
+			"item_name"	"DOOMguy"
+			"item_description"	"Model by TheMedineer"
+			"item_slot"	"misc2"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/scout_doomguy/scout.mdl"
+			"model_player"	"models/player/scout_doomguy/scout.mdl"
+			"used_by_classes"
+			{
+				"scout" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"scout"	"1"
+					"shoes_socks"	"1"
+					"headphones"	"1"
+					"hat"	"1"
+					"dogtags"	"1"
+				}
+			}
+		}
 		"17000"
 		{
 			"name"	"Specialist"

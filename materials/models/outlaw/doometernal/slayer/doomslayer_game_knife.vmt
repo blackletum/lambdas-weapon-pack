@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\outlaw\doometernal\slayer\doomslayer_game_knife_d"
+	"$bumpmap" "models\outlaw\doometernal\slayer\doomslayer_game_knife_n"
+	
+	"$color2"			"[0.0 0.0 0.0]"
+	"$blendTintByBaseAlpha" "1"
+	
+	
+	"$PhongAlbedoTint" "1"
+	
+
+	
+	"$phong" "1"
+	"$phongexponenttexture" "models\outlaw\doometernal\slayer\doomslayer_game_knife_e"
+	"$phongwarptexture" "models\outlaw\doometernal\slayer\phongwarp"
+	"$phongexponent" "1"
+	"$phongalbedotint" 1
+	"$phongboost"	"5"
+	"$phongfresnelranges"	"[1 2.05 3.25]"	
+	
+	
+}

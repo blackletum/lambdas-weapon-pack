@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\outlaw\doometernal\slayer\doomslayer_game_arm_right_d_b"
+	"$bumpmap" "models\outlaw\doometernal\slayer\doomslayer_game_arm_right_n"
+	
+	
+	"$phong" "1"
+	"$phongexponenttexture" "models\outlaw\doometernal\slayer\doomslayer_game_arm_right_e"
+	"$phongexponent" "1"
+	"$phongalbedotint" 1
+	"$phongboost"	"5"
+	"$phongfresnelranges"	"[1 2.05 3.25]"	
+	
+	
+}
