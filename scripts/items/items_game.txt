@@ -14396,12 +14396,9 @@
             	"attach_to_hands"    "1"
             	"visuals"
             	{
-		//AWP sounds disabled for now since they're not working properly
-		//  "sound_single_shot"    "Weapon_AWP.Single"
-		//  "sound_burst"        "Weapon_AWP.SingleCrit"
-                "sound_single_shot"    "Weapon_ClassicSniperRifle.Single"
-                "sound_burst"        "Weapon_ClassicSniperRifle.SingleCrit"
-            	}
+		"sound_single_shot"    "Weapon_AWP.Single"
+		"sound_burst"        "Weapon_AWP.SingleCrit"
+                }
             	"used_by_classes"
             	{
                 "sniper"    "1"
