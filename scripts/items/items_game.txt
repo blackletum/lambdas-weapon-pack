@@ -24070,7 +24070,7 @@
 				"damage bonus"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"	"888.88"
+					"value"	"10.0"
 				}
 				"critboost on kill"
 				{
@@ -24090,7 +24090,7 @@
 				"reload time increased"
 				{
 					"attribute_class"	"mult_reload_time"
-					"value"	"2.65"
+					"value"	"4.35"
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
