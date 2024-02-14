@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "console\lazararck\overwatch\characters\tracer\glass_d2"
+	"$bumpmap" "console\lazararck\overwatch\characters\tracer\glass_n"
+
+	"$translucent" 1
+	"$phong" 1
+	"$phongexponent" 150
+	"$phongboost" "5"
+	"$phongfresnelranges" "[0.3 0.7 0.2]"
+	"$nodecal" "1"
+}

@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	$basetexture  "console/lazararck/overwatch/characters/tracer/decal_d"
+	$bumpmap  "console/lazararck/overwatch/characters/tracer/decal_n"
+	"$phongexponenttexture" "console\lazararck\overwatch\characters\tracer\body_e"
+
+	$translucent 1
+	$nocull 1
+
+	$phong 1
+	$phongfresnelranges "[0.35 0.85 1.25]"
+	$phongdisablehalflambert 1
+	$phongalbedotint 1
+	"$phongboost"	"4"
+	"$phongfresnelranges"	"[2 10 22.5]"
+
+	$ambientocclusion 0
+
+}

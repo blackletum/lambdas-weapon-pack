@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	$basetexture "console/lazararck/overwatch/characters/tracer/strand_d"
+	$bumpmap "console/lazararck/overwatch/characters/tracer/hair_n"
+	
+	"$alphatestreference" "0"
+	"$translucent" 1
+	"$phong" "1"
+	"$phongboost" "0.15"
+	"$phongexponent" "1.5"
+	"$phongexponenttexture" "console/lazararck/overwatch/characters/tracer/stand_e"
+	"$phongtint" "[.3 .18 .1125]"
+	"$phongfresnelranges" "[3 3 5]"
+
+	"$ambientocclusion" "0"
+}

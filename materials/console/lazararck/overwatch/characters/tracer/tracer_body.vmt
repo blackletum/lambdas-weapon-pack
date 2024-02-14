@@ -1,0 +1,24 @@
+VertexLitGeneric
+{
+	$basetexture "console/lazararck/overwatch/characters/tracer/body_d"
+	$bumpmap "console/lazararck/overwatch/characters/tracer/body_n"
+
+	$envmap "console/lazararck/overwatch/characters/shared/softsilver"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.01 0.01 0.01]"
+	$envmapfresnel 1
+
+	$phong 1
+	$phongexponenttexture "console/lazararck/overwatch/characters/tracer/body_e2"
+	$phongfresnelranges "[2 10 22.5]"
+	$phongalbedotint 1
+	$phongboost 2
+
+	$emissiveblendenabled 1
+	$emissiveblendtexture "dev/null"
+	$emissiveblendbasetexture "console/lazararck/overwatch/characters/tracer/body_g"
+	$emissiveblendflowtexture "dev/null"
+	$emissiveblendscrollvector "[0 0]"
+
+	$blendtintbybasealpha 1
+}

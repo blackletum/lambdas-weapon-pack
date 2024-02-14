@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	$basetexture  "console/lazararck/overwatch/characters/tracer/brow_d"
+	$bumpmap  "console/lazararck/overwatch/characters/tracer/brow_n"
+
+	$phong "1"
+	$phongboost "0.15"
+	$phongexponent "20.5"
+	$phongfresnelranges "[0.3 0.75 1.00]"
+	$phongalbedotint "1"
+	
+	$translucent "1"
+	
+	$ambientocclusion "0"
+	$nocull "0"
+}

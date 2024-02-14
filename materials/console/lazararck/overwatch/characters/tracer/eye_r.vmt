@@ -1,0 +1,18 @@
+"EyeRefract"
+{
+	"$Iris"   "console/lazararck/overwatch/characters/tracer/eye_d"
+	"$AmbientOcclTexture" "console/lazararck/overwatch/characters/shared/eye_ao"
+	"$Envmap"             "console/lazararck/overwatch/characters/shared/eye_cm" 
+	"$CorneaTexture"      "console/lazararck/overwatch/characters/shared/eye_c" 
+	"$EyeballRadius" "0.8"
+	"$AmbientOcclColor" "[1 1 1]"	
+	"$Dilation" ".7"
+	"$ParallaxStrength" "0.1"          
+	"$CorneaBumpStrength" "1.0"
+	"$Glossiness" "0"
+	"$halflambert" "1"
+	"$nodecal" "1"
+	"$RaytraceSphere" "1"
+	"$SphereTexkillCombo" "1"
+	"$ambientocclusion" "1"
+}
