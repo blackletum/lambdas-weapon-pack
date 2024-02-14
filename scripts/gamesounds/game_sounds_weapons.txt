@@ -8560,23 +8560,70 @@
 
 // ------------------------------------------------------------------------------------ //
 // SCATMAN JOHN
-//  ...NEED 2 FIX...
 // ------------------------------------------------------------------------------------ //
-"Weapon_AWP.Single"
+
+"ScatmanJohn.Rev"
 {
-	"channel"	"CHAN_WEAPON"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"	"1.0"
-	"wave"		")weapons/csgo_awp_shoot.wav"
-}
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
 
-"Weapon_AWP.SingleCrit"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"weapons/scatman/scatman_rev.wav"
+	}
+}
+"ScatmanJohn.Double"
 {
-	"channel"	"CHAN_WEAPON"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"	"1.0"
-	"wave"		")weapons/csgo_awp_shoot_crit.wav"
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"weapons/scatman/scatman_firingloop.wav"
+	}
 }
+"ScatmanJohn.RevDown"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
 
+	"soundlevel"	"SNDLVL_NORM"
 
+	"rndwave"
+	{
+		"wave"	"weapons/scatman/scatman_revdown.wav"
+	}
+}
+"ScatmanJohn.Crit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
 
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"weapons/scatman/scatmanrestofthesong.mp3"
+	}
+}
+"ScatmanJohn.RevUp"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"weapons/scatman/scatman_sworld.mp3"
+	}
+}
