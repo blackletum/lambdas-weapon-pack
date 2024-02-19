@@ -27119,6 +27119,30 @@
 				}
 			}
 		}
+		"30824"
+		{
+			"name"		"The Electric Twanger"
+			"prefab"		"no_craft misc marketable"
+			"first_sale_date"		"2016/12/15"
+			"item_name"		"#TF_dec16_electric_twanger"
+			"item_description"		"#TF_dec16_electric_twanger_Desc"
+			"item_type_name"		"#TF_Wearable_Guitar"
+			"equip_region"		"scout_backpack"
+			"propername"		"1"
+			"image_inventory"		"backpack/workshop/player/items/scout/dec16_electric_twanger/dec16_electric_twanger"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/scout/dec16_electric_twanger/dec16_electric_twanger.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
 		"30839"
 		{
 			"name"		"Taunt: Didgeridrongo"
@@ -27825,6 +27849,70 @@
 					"value"		"2"
 				}
 			}
+		}
+		"31270"
+		{
+			"name"		"Tropical Camo"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_sum22_tropical_camo"
+			"item_description"		"#TF_sum22_tropical_camo_Desc"
+			"item_type_name"		"#TF_Wearable_Shirt"
+			"equip_region"		"shirt"
+			"image_inventory"		"backpack/workshop/player/items/sniper/sum22_tropical_camo/sum22_tropical_camo"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/sniper/sum22_tropical_camo/sum22_tropical_camo.mdl"
+			"used_by_classes"
+			{
+				"sniper"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/sniper/sum22_tropical_camo/sum22_tropical_camo.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_sum22_tropical_camo_style0"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/sniper/sum22_tropical_camo_style2/sum22_tropical_camo_style2.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_sum22_tropical_camo_style1"
+					}
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31420"
+		{
+			"name"		"The Puffed Practitioner"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_dec23_puffed_practitioner"
+			"item_description"		"#TF_dec23_puffed_practitioner_Desc"
+			"item_type_name"		"#TF_Wearable_Coat"
+			"equip_region"		"shirt"
+			"propername"		"1"
+			"image_inventory"		"backpack/workshop/player/items/medic/dec23_puffed_practitioner/dec23_puffed_practitioner"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/medic/dec23_puffed_practitioner/dec23_puffed_practitioner.mdl"
+			"used_by_classes"
+			{
+				"medic"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
 		}
 	}
 	"attributes"
