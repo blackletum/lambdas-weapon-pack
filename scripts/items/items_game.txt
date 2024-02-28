@@ -18144,6 +18144,123 @@
 				}
 			}
 		}
+		"8000"
+		{
+			"name"	"The Idiot Box"
+			"prefab"		"base_hat"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"paintable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_mark"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_name"	"#TF_Hwn_SoldierHat"
+			"item_type_name"	"Box"
+			"item_description"	""
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/soldier/hwn_soldier_hat"
+			"model_player"	"models/player/items/soldier/hwn_soldier_hat.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+				}
+			}
+		}
+		"8001"
+		{
+			"name"	"Steel Pipes"
+			"prefab"	"valve halloween_costume_piece_2011 base_misc"
+			"item_name"	"#TF_Hwn_SoldierMisc1"
+			"item_description"	"#TF_Hwn_SoldierMisc1_Desc"
+			"propername"	"1"
+			"item_slot"	"misc"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"paintable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_mark"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"Box"
+			"item_description"	""
+			"item_quality"	"unique"
+			"equip_region"	"sleeves"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/soldier/hwn_soldier_misc1"
+			"model_player"	"models/player/items/soldier/hwn_soldier_misc1.mdl"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+		}
+		"8002"
+		{
+			"name"	"Shoestring Budget"
+			"prefab"	"valve halloween_costume_piece_2011 base_misc"
+			"item_name"	"#TF_Hwn_SoldierMisc2"
+			"item_description"	"#TF_Hwn_SoldierMisc2_Desc"
+			"prefab"	"valve misc"
+			"item_class"	"tf_wearable"
+			"propername"	"1"
+			"item_slot"	"misc2"
+			"image_inventory"	"backpack/player/items/soldier/hwn_soldier_misc2"
+			"model_player"	"models/player/items/soldier/hwn_soldier_misc2.mdl"
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_description"	""
+			"item_quality"	"unique"
+			"item_type_name" 	"#TF_Wearable_Boots"
+			"equip_region"	"feet"
+			"propername"	"1"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"paintable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_mark"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"shoes"			"1"
+				}
+			}
+
+		}
 		"9000"
 		{
 			"name"	"Gravity Gun"
@@ -26121,15 +26238,8 @@
 			"drop_type"	"drop"
 			"used_by_classes"
 			{
-				"scout"	"1"
-				"sniper"	"1"
 				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
 				"heavy"	"1"
-				"spy"	"1"
-				"engineer"	"1"
-				"pyro"	"1"
 			}
 			"visuals"
 			{
@@ -26222,6 +26332,1000 @@
 				"sound_burst"	"ScatmanJohn.Crit"
 			}
 			"mouse_pressed_sound"	"weapons/scatman/scatman_sworld.mp3"			
+		}
+		"30636"
+		{
+			"name"		"Fortunate Son"
+			"prefab"		"no_craft hat marketable"
+			"item_name"		"#TF_cc_summer2015_fortunate_son"
+			"item_description"		"#TF_cc_summer2015_fortunate_son_Desc"
+			"item_type_name"		"#TF_Wearable_Helmet"
+			"equip_region"		"hat"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+					"headphones"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/scout/cc_summer2015_fortunate_son/cc_summer2015_fortunate_son"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/scout/cc_summer2015_fortunate_son/cc_summer2015_fortunate_son.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_helmet_pickup.wav"
+			"drop_sound"		"ui/item_helmet_drop.wav"
+		}
+		"31365"
+		{
+			"name"		"Medical Emergency"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_sum23_medical_emergency"
+			"item_description"		"#TF_sum23_medical_emergency_Desc"
+			"item_type_name"		"#TF_Wearable_Medkit"
+			"equip_region"		"medic_hip"
+			"image_inventory"		"backpack/workshop/player/items/medic/sum23_medical_emergency/sum23_medical_emergency"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/medic/sum23_medical_emergency/sum23_medical_emergency.mdl"
+			"used_by_classes"
+			{
+				"medic"		"1"
+			}
+		}
+		"30470"
+		{
+			"name"		"The Biomech Backpack"
+			"prefab"		"misc"
+			"first_sale_date"		"2014/11/13"
+			"item_type_name"		"#TF_Wearable_Costume"
+			"item_name"		"#TF_BiomechBackpack"
+			"item_description"		"#TF_BiomechBackpack_Desc"
+			"equip_region"		"back"
+			"propername"		"1"
+			"image_inventory"		"backpack/workshop_partner/player/items/scout/ai_body/ai_body"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop_partner/player/items/scout/ai_body/ai_body.mdl"
+			"holiday_restriction"		"halloween_or_fullmoon"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+		}
+		"30471"
+		{
+			"name"		"The Alien Cranium"
+			"prefab"		"hat"
+			"first_sale_date"		"2014/11/13"
+			"item_type_name"		"#TF_Wearable_Costume"
+			"item_name"		"#TF_AlienCranium"
+			"item_description"		"#TF_AlienCranium_Desc"
+			"propername"		"1"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+					"headphones"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop_partner/player/items/scout/ai_head/ai_head"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop_partner/player/items/scout/ai_head/ai_head.mdl"
+			"holiday_restriction"		"halloween_or_fullmoon"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+		}
+		"30472"
+		{
+			"name"		"The Xeno Suit"
+			"prefab"		"halloween2014 no_craft misc"
+			"item_name"		"#TF_XenoSuit"
+			"item_description"		"#TF_XenoSuit_Desc"
+			"item_type_name"		"#TF_Wearable_Costume"
+			"propername"		"1"
+			"item_quality"		"unique"
+			"item_slot"		"misc2"
+			"item_class"	"tf_wearable"
+			"propername"		"1"
+			"show_in_armory"	"1"
+			"propername"		"1"
+			"equip_regions"
+			{
+				"scout_pants"		"1"
+				"feet"		"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"shoes_socks"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"image_inventory"		"backpack/workshop_partner/player/items/scout/ai_legs/ai_legs"
+			"model_player"		"models/workshop_partner/player/items/scout/ai_legs/ai_legs.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+		}
+		"30937"
+		{
+			"name"		"The Cat's Pajamas"
+			"prefab"		"no_craft hat marketable"
+			"item_name"		"#TF_dec17_cats_pajamas"
+			"item_description"		"#TF_dec17_cats_pajamas_Desc"
+			"item_type_name"		"#TF_Wearable_Hood"
+			"equip_region"		"hat"
+			"propername"		"1"
+			"image_inventory"		"backpack/workshop/player/items/pyro/dec17_cats_pajamas/dec17_cats_pajamas"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/pyro/dec17_cats_pajamas/dec17_cats_pajamas.mdl"
+			"used_by_classes"
+			{
+				"pyro"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"30826"
+		{
+			"name"		"Sweet Smissmas Sweater"
+			"prefab"	"valve misc"
+			"item_name"		"#TF_dec16_smissmas_sweater"
+			"item_description"		"#TF_dec16_smissmas_sweater_Desc"
+			"item_type_name"		"#TF_Wearable_Sweater"
+			"item_slot"		"misc2"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"grenades"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/pyro/dec16_smissmas_sweater/dec16_smissmas_sweater"
+			"model_player"		"models/workshop/player/items/pyro/dec16_smissmas_sweater/dec16_smissmas_sweater.mdl"
+			"used_by_classes"
+			{
+				"pyro"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31004"
+		{
+			"name"		"Pyro in Chinatown"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_hwn2018_pyro_in_chinatown"
+			"item_description"		"#TF_hwn2018_pyro_in_chinatown_Desc"
+			"item_type_name"		"#TF_Wearable_Flair"
+			"equip_region"		"glasses"
+			"image_inventory"		"backpack/workshop/player/items/pyro/hwn2018_pyro_in_chinatown/hwn2018_pyro_in_chinatown"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/pyro/hwn2018_pyro_in_chinatown/hwn2018_pyro_in_chinatown.mdl"
+			"used_by_classes"
+			{
+				"pyro"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/pyro/hwn2018_pyro_in_chinatown/hwn2018_pyro_in_chinatown.mdl"
+						"name"		"#TF_hwn2018_pyro_in_chinatown_style1"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/pyro/hwn2018_pyro_in_little_chinatown/hwn2018_pyro_in_little_chinatown.mdl"
+						"name"		"#TF_hwn2018_pyro_in_chinatown_style2"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+					}
+				}
+			}
+		}
+		"30239"
+		{
+			"name"		"The Freedom Feathers"
+			"prefab"		"halloween2013 hat"
+			"item_type_name"		"#TF_Wearable_BirdHead"
+			"item_name"		"#TF_hw2013_feathered_freedom"
+			"item_description"		"#TF_hw2013_feathered_freedom_Desc"
+			"item_slot"	"head"
+			"equip_region"		"whole_head"
+			"propername"		"1"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/soldier/hw2013_feathered_freedom/hw2013_feathered_freedom"
+			"model_player"		"models/workshop/player/items/soldier/hw2013_feathered_freedom/hw2013_feathered_freedom.mdl"
+			"used_by_classes"
+			{
+				"soldier"		"1"
+			}
+			"attributes"
+			{
+				"additional halloween response criteria name"
+				{
+					"attribute_class"		"additional_halloween_response_criteria_name"
+					"value"		"IsSoldierBirdHead"
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31075"
+		{
+			"name"		"Eingineer"
+			"prefab"		"no_craft hat marketable"
+			"item_name"		"#TF_hwn2019_eingineer"
+			"item_description"		"#TF_hwn2019_eingineer_Desc"
+			"item_type_name"		"#TF_Wearable_BirdHead"
+			"item_slot"	"head"
+			"equip_region" 
+			{
+				"whole_head"		"1"
+				"head_skin"		"1"
+			}
+			"image_inventory"		"backpack/workshop/player/items/engineer/hwn2019_eingineer/hwn2019_eingineer"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"holiday_restriction"		"halloween_or_fullmoon"
+			"model_player"		"models/workshop/player/items/engineer/hwn2019_eingineer/hwn2019_eingineer.mdl"
+			"used_by_classes"
+			{
+				"engineer"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"30079"
+		{
+			"name"		"The Red Army Robin"
+			"prefab"		"misc"
+			"first_sale_date"		"2013/08/26"
+			"item_type_name"		"#TF_Wearable_Mascot"
+			"item_name"		"#TF_jul13_red_army_robin"
+			"item_description"		"#TF_jul13_red_army_robin_Desc"
+			"equip_region"		"left_shoulder"
+			"image_inventory"		"backpack/workshop/player/items/heavy/jul13_red_army_robin/jul13_red_army_robin"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/heavy/jul13_red_army_robin/jul13_red_army_robin.mdl"
+			"propername"		"1"
+			"used_by_classes"
+			{
+				"heavy"		"1"
+			}
+			"attributes"
+			{
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"		"counts_as_assister"
+					"value"		"1"
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31229"
+		{
+			"name"		"Batter's Beak"
+			"prefab"		"no_craft hat marketable"
+			"item_name"		"#TF_hwn2021_batters_beak"
+			"item_description"		"#TF_hwn2021_batters_beak_Desc"
+			"item_type_name"		"#TF_Wearable_BirdHead"
+			"item_slot"	"head"
+			"equip_region" 
+			{
+				"whole_head"		"1"
+				"head_skin"		"1"
+			}
+			"holiday_restriction"		"halloween_or_fullmoon"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"dogtags"		"1"
+					"hat"		"1"
+					"headphones"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/scout/hwn2021_batters_beak/hwn2021_batters_beak"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/scout/hwn2021_batters_beak/hwn2021_batters_beak.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+		}
+		"31073"
+		{
+			"name"		"Avian Amante"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_hwn2019_avian_amante"
+			"item_description"		"#TF_hwn2019_avian_amante_Desc"
+			"item_type_name"		"#TF_Wearable_BirdHead"
+			"item_slot"	"head"
+			"equip_region" 
+			{
+				"whole_head"		"1"
+				"head_skin"		"1"
+			}
+			"image_inventory"		"backpack/workshop/player/items/spy/hwn2019_avian_amante/hwn2019_avian_amante"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"holiday_restriction"		"halloween_or_fullmoon"
+			"model_player"		"models/workshop/player/items/spy/hwn2019_avian_amante/hwn2019_avian_amante.mdl"
+			"used_by_classes"
+			{
+				"spy"		"1"
+			}
+			"attributes"
+			{
+				"attach particle effect static"
+				{
+					"attribute_class"		"set_attached_particle_static"
+					"value"		"28"
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"30284"
+		{
+			"name"		"Sir Shootsalot"
+			"prefab"		"halloween2013 hat"
+			"item_type_name"		"#TF_Wearable_BirdHead"
+			"item_name"		"#TF_hw2013_sir_shootsalot"
+			"item_description"		"#TF_hw2013_sir_shootsalot_Desc"
+			"item_slot"	"head"
+			"equip_region"		"whole_head"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/sniper/hw2013_sir_shootsalot/hw2013_sir_shootsalot"
+			"model_player"		"models/workshop/player/items/sniper/hw2013_sir_shootsalot/hw2013_sir_shootsalot.mdl"
+			"used_by_classes"
+			{
+				"sniper"		"1"
+			}
+			"attributes"
+			{
+				"additional halloween response criteria name"
+				{
+					"attribute_class"		"additional_halloween_response_criteria_name"
+					"value"		"IsSniperBirdHead"
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"917"
+		{
+			"name"	"Sir Hootsalot"
+			"first_sale_date"	"2012/10/26"
+			"prefab"	"misc"
+			"capabilities"
+			{
+				"paintable"	"1"
+			}
+			"equip_region"	"left_shoulder"
+			"item_type_name"	"#TF_Wearable_Mascot"
+			"item_name"	"#TF_SirHootsalot"
+			"item_description"	"#TF_SirHootsalot_desc"
+			"image_inventory"	"backpack/player/items/sniper/sniper_owl"
+			"model_player"	"models/player/items/sniper/sniper_owl.mdl"
+			"propername"	"0"
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_SirHootsalot_Style0"
+					}
+					"1"
+					{
+						"skin"	"1"
+						"name"	"#TF_SirHootsalot_Style1"
+					}
+				}
+			}
+			"used_by_classes"
+			{
+				"sniper"	"1"
+			}
+			"attributes"
+			{
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"	"counts_as_assister"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"30282"
+		{
+			"name"		"The Mann-Bird of Aberdeen"
+			"prefab"		"halloween2013 hat"
+			"item_type_name"		"#TF_Wearable_BirdHead"
+			"item_name"		"#TF_hw2013_manbird_of_aberdeen"
+			"item_description"		"#TF_hw2013_manbird_of_aberdeen_Desc"
+			"equip_region"		"whole_head"
+			"propername"		"1"
+			"image_inventory"		"backpack/workshop/player/items/demo/hw2013_manbird_of_aberdeen/hw2013_manbird_of_aberdeen"
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/demo/hw2013_manbird_of_aberdeen/hw2013_manbird_of_aberdeen.mdl"
+			"used_by_classes"
+			{
+				"demoman"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"776"
+		{
+			"name"	"The Bird-Man of Aberdeen"
+			"first_sale_date"	"2012/07/10"
+			"prefab"	"misc"
+			"equip_region"	"left_shoulder"
+			"item_type_name"	"#TF_Wearable_Mascot"
+			"item_name"	"#TF_DemoParrot"
+			"item_description"	"#TF_DemoParrot_Desc"
+			"image_inventory"	"backpack/player/items/demo/demo_parrot"
+			"model_player"	"models/player/items/demo/demo_parrot.mdl"
+			"propername"	"1"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+				"paintable"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+			"used_by_classes"
+			{
+				"demoman"	"1"
+			}
+			"attributes"
+			{
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"	"counts_as_assister"
+					"value"				"1"
+				}
+			}
+		}
+		"30237"
+		{
+			"name"		"Medimedes"
+			"prefab"		"halloween2013 hat"
+			"item_type_name"		"#TF_Wearable_BirdHead"
+			"item_name"		"#TF_hw2013_medicmedes"
+			"item_description"		"#TF_hw2013_medicmedes_Desc"
+			"item_slot"	"head"
+			"equip_region"		"whole_head"
+			"image_inventory"		"backpack/workshop/player/items/medic/hw2013_medicmedes/hw2013_medicmedes"
+			"model_player"		"models/workshop/player/items/medic/hw2013_medicmedes/hw2013_medicmedes.mdl"
+			"used_by_classes"
+			{
+				"medic"		"1"
+			}
+			"attributes"
+			{
+				"additional halloween response criteria name"
+				{
+					"attribute_class"		"additional_halloween_response_criteria_name"
+					"value"		"IsMedicBirdHead"
+				}
+			}
+		}
+		"30988"
+		{
+			"name"		"Aristotle"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_spr18_aristotle"
+			"item_description"		"#TF_spr18_aristotle_Desc"
+			"item_type_name"		"#TF_Wearable_Mascot"
+			"equip_region"		"arms"
+			"image_inventory"		"backpack/workshop/player/items/spy/spr18_aristotle/spr18_aristotle"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/spy/spr18_aristotle/spr18_aristotle.mdl"
+			"used_by_classes"
+			{
+				"spy"		"1"
+			}
+			"attributes"
+			{
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"		"counts_as_assister"
+					"value"		"1"
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31021"
+		{
+			"name"		"The Catcher's Companion"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_dec18_catchers_companion"
+			"item_description"		"#TF_dec18_catchers_companion_Desc"
+			"item_type_name"		"#TF_Wearable_Mascot"
+			"equip_region"		"right_shoulder"
+			"image_inventory"		"backpack/workshop/player/items/scout/dec18_catchers_companion/dec18_catchers_companion"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"propername"		"1"
+			"model_player"		"models/workshop/player/items/scout/dec18_catchers_companion/dec18_catchers_companion.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+			"attributes"
+			{
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"		"counts_as_assister"
+					"value"		"1"
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/scout/dec18_catchers_companion/dec18_catchers_companion.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec18_catchers_companion_style0"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/scout/dec18_catchers_companion_style/dec18_catchers_companion_style.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_dec18_catchers_companion_style1"
+					}
+				}
+			}
+		}
+		"30341"
+		{
+			"name"		"Ein"
+			"prefab"		"misc"
+			"first_sale_date"		"2014/09/15"
+			"item_type_name"		"#TF_Wearable_Mascot"
+			"item_name"		"#TF_sbox2014_einstein"
+			"item_description"		"#TF_sbox2014_einstein_Desc"
+			"equip_region"		"left_shoulder"
+			"image_inventory"		"backpack/workshop/player/items/engineer/sbox2014_einstein/sbox2014_einstein"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/engineer/sbox2014_einstein/sbox2014_einstein.mdl"
+			"used_by_classes"
+			{
+				"engineer"		"1"
+			}
+			"attributes"
+			{
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"		"counts_as_assister"
+					"value"		"1"
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31047"
+		{
+			"name"		"The Fiery Phoenix"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_sum19_fiery_phoenix"
+			"item_description"		"#TF_sum19_fiery_phoenix_Desc"
+			"item_type_name"		"#TF_Wearable_Mascot"
+			"equip_region"		"left_shoulder"
+			"propername"		"1"
+			"image_inventory"		"backpack/workshop/player/items/pyro/sum19_fiery_phoenix/sum19_fiery_phoenix"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/pyro/sum19_fiery_phoenix/sum19_fiery_phoenix.mdl"
+			"used_by_classes"
+			{
+				"pyro"		"1"
+			}
+			"attributes"
+			{
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"		"counts_as_assister"
+					"value"		"1"
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31231"
+		{
+			"name"		"The Miami Rooster"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_hwn2021_miami_rooster"
+			"item_description"		"#TF_hwn2021_miami_rooster_Desc"
+			"item_type_name"		"#TF_Wearable_BirdHead"
+			"item_slot"	"head"
+			"equip_region"		"pyro_head_replacement"
+			"holiday_restriction"		"halloween_or_fullmoon"
+			"propername"		"1"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"head"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/pyro/hwn2021_miami_rooster/hwn2021_miami_rooster"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/pyro/hwn2021_miami_rooster/hwn2021_miami_rooster.mdl"
+			"used_by_classes"
+			{
+				"pyro"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"30289"
+		{
+			"name"		"Quoth"
+			"prefab"		"halloween2013 misc"
+			"item_type_name"		"#TF_Wearable_SpookyCompanion"
+			"item_name"		"#TF_hw2013_the_caws_of_death"
+			"item_description"		"#TF_hw2013_the_caws_of_death_Desc"
+			"equip_region"		"disconnected_floating_item"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"headphones"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death"
+			"model_player_per_class"
+			{
+				"scout"		"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_scout.mdl"
+				"sniper"	"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_sniper.mdl"
+				"soldier"	"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_soldier.mdl"
+				"demoman"	"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_demo.mdl"
+				"medic"		"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_medic.mdl"
+				"heavy"		"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_heavy.mdl"
+				"pyro"		"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_pyro.mdl"
+				"spy"		"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_spy.mdl"
+				"engineer"	"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_engineer.mdl"
+				"john"		"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_scout.mdl"
+				"civilian"		"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_engineer.mdl"
+				"saxton"		"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_heavy.mdl"
+				"mercenary"		"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_soldier.mdl"
+				"zombiefast"		"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_scout.mdl"
+				"combine"		"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_scout.mdl"
+				"antlion"		"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_scout.mdl"
+				"robo"		"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_scout.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"		"1"
+				"soldier"		"1"
+				"demoman"		"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"pyro"		"1"
+				"spy"		"1"
+				"engineer"		"1"
+				"john"		"1"
+				"civilian"		"1"
+				"saxton"		"1"
+				"mercenary"		"1"
+				"zombiefast"		"1"
+				"combine"		"1"
+				"antlion"		"1"
+				"robo"		"1"
+			}
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
+			"attributes"
+			{
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"		"counts_as_assister"
+					"value"		"1"
+				}
+			}
+		}
+		"30367"
+		{
+			"name"		"The Cute Suit"
+			"propername"		"1"
+			"prefab"		"misc"
+			"first_sale_date"		"2014/09/15"
+			"item_type_name"		"#TF_Wearable_Apparel"
+			"item_name"		"#TF_sbox2014_pyro_zipper_suit"
+			"item_description"		"#TF_sbox2014_pyro_zipper_suit_Desc"
+			"item_slot"		"misc2"
+			"equip_region"		"pyro_head_replacement"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"head"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/all_class/sbox2014_zipper_suit/sbox2014_zipper_suit"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player_per_class"
+			{
+				"pyro"		"models/workshop/player/items/all_class/sbox2014_zipper_suit/sbox2014_zipper_suit_pyro.mdl"
+				"engineer"		"models/workshop/player/items/all_class/sbox2014_zipper_suit/sbox2014_zipper_suit_engineer.mdl"
+			}
+			"used_by_classes"
+			{
+				"pyro"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_rubber_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#TF_sbox2014_pyro_zipper_suit_style0"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+					}
+					"1"
+					{
+						"name"		"#TF_sbox2014_pyro_zipper_suit_style1"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"additional_hidden_bodygroups"
+						{
+							"hat"		"1"
+						}
+					}
+				}
+			}
+		}
+		"31051"
+		{
+			"name"		"Wanderer's Wear"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_sum19_spawn_camper_jacket"
+			"item_description"		"#TF_sum19_spawn_camper_jacket_Desc"
+			"item_type_name"		"#TF_Wearable_Coat"
+			"item_slot"		"misc2"
+			"equip_region"		"shirt"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"grenades"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/pyro/sum19_spawn_camper_jacket/sum19_spawn_camper_jacket"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/pyro/sum19_spawn_camper_jacket/sum19_spawn_camper_jacket.mdl"
+			"used_by_classes"
+			{
+				"pyro"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31068"
+		{
+			"name"		"Pyro Shark"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_hwn2019_pyro_shark"
+			"item_description"		"#TF_hwn2019_pyro_shark_Desc"
+			"equip_region"		"pyro_head_replacement"
+			"item_type_name"		"#TF_Wearable_Costume"
+			"item_slot"	"head"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"head"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/pyro/hwn2019_pyro_shark/hwn2019_pyro_shark"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"holiday_restriction"		"halloween_or_fullmoon"
+			"model_player"		"models/workshop/player/items/pyro/hwn2019_pyro_shark/hwn2019_pyro_shark.mdl"
+			"used_by_classes"
+			{
+				"pyro"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_gooey_pickup.wav"
+			"drop_sound"		"ui/item_gooey_pickup.wav"
+		}
+		"30676"
+		{
+			"name"		"The Face of Mercy"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_hwn2015_face_of_mercy"
+			"item_description"		"#TF_hwn2015_face_of_mercy_Desc"
+			"item_type_name"		"#TF_Wearable_Mask"
+			"item_slot"		"misc"
+			"equip_region"		"face"
+			"propername"		"1"
+			"image_inventory"		"backpack/workshop/player/items/pyro/hwn2015_face_of_mercy/hwn2015_face_of_mercy"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/pyro/hwn2015_face_of_mercy/hwn2015_face_of_mercy.mdl"
+			"used_by_classes"
+			{
+				"pyro"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_helmet_pickup.wav"
+			"drop_sound"		"ui/item_helmet_drop.wav"
+		}
+		"30544"
+		{
+			"name"		"EOTL_pyro_sweater"
+			"prefab"		"no_craft misc"
+			"item_type_name"		"#TF_Wearable_Sweater"
+			"item_name"		"#TF_EOTL_pyro_sweater"
+			"item_description"		"#TF_pyro_sweater_Desc"
+			"equip_region"		"shirt"
+			"item_slot"		"misc2"
+			"image_inventory"		"backpack/workshop/player/items/pyro/pyro_sweater/pyro_sweater"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/pyro/pyro_sweater/pyro_sweater.mdl"
+			"used_by_classes"
+			{
+				"pyro"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31106"
+		{
+			"name"		"Sophisticated Smoker"
+			"prefab"		"no_craft hat marketable"
+			"item_name"		"#TF_sum20_sophisticated_smoker"
+			"item_description"		"#TF_sum20_sophisticated_smoker_Desc"
+			"propername"		"1"
+			"item_slot"	"head"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"headphones"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/all_class/sum20_sophisticated_smoker/sum20_sophisticated_smoker"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player_per_class"
+			{
+				"soldier"		"models/workshop/player/items/all_class/sum20_sophisticated_smoker/sum20_sophisticated_smoker_soldier.mdl"
+				"demoman"		"models/workshop/player/items/all_class/sum20_sophisticated_smoker/sum20_sophisticated_smoker_demo.mdl"
+				"heavy"		"models/workshop/player/items/all_class/sum20_sophisticated_smoker/sum20_sophisticated_smoker_heavy.mdl"
+				"engineer"		"models/workshop/player/items/all_class/sum20_sophisticated_smoker/sum20_sophisticated_smoker_engineer.mdl"
+			}
+			"attributes"
+			{
+				"attach particle effect static"
+				{
+					"attribute_class"		"set_attached_particle_static"
+					"value"		"28"
+				}
+			}
+			"used_by_classes"
+			{
+				"soldier"		"1"
+				"demoman"		"1"
+				"heavy"		"1"
+				"engineer"		"1"
+			}
 		}
 		"10164"
 		{
