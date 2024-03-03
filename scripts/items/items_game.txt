@@ -26371,6 +26371,63 @@
 			}
 			"mouse_pressed_sound"	"weapons/scatman/scatman_sworld.mp3"			
 		}
+		"10165"
+		{
+			"name"	"SkeleScout"
+			"first_sale_date"	"1969/04/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"show_in_armory"	"1"
+			"item_type_name"	"Level 1 Skele"
+			"item_name"	"SkeleScout"
+			"item_description"	"Model by Insaneicide"
+			"item_slot"	"misc2"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/player/skeleton scout/scout.mdl"
+			"model_player"	"models/player/skeleton scout/scout.mdl"
+			"used_by_classes"
+			{
+				"scout" "1"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"voice_pitch_scale"
+					"value"		"0.95"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"scout"	"1"
+					"shoes_socks"	"1"
+					"headphones"	"1"
+					"hat"	"1"
+					"dogtags"	"1"
+				}
+			}
+		}
 		"30636"
 		{
 			"name"		"Fortunate Son"

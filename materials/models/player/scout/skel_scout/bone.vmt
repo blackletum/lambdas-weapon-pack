@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/scout/skel_scout/bone"
+	"$bumpmap"     "models/player/scout/skel_scout/bonenorm"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+}
