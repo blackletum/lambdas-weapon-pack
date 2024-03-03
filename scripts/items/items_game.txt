@@ -24790,6 +24790,37 @@
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_drop.wav"
 		}
+		"9128"
+		{
+			"name"	"Archimedes"
+			"first_sale_date"	"2012/08/15"
+			"prefab"	"valve misc"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"equip_region"	"left_shoulder"
+			"item_type_name"	"#TF_Wearable_Mascot"
+			"item_name"	"#TF_Archimedes"
+			"item_description"	"#TF_Archimedes_Desc"
+			"image_inventory"	"backpack/player/items/medic/archimedes"
+			"item_slot"	"misc2"
+			"model_player"	"models/player/items/medic/archimedes.mdl"
+			"used_by_classes"
+			{
+				"medic"	"1"
+			}
+			"attributes"
+			{
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"	"counts_as_assister"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
 		"9129"
 		{
 			"name"	"Armored Authority"
@@ -26238,8 +26269,15 @@
 			"drop_type"	"drop"
 			"used_by_classes"
 			{
+				"scout"	"1"
+				"sniper"	"1"
 				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
 				"heavy"	"1"
+				"spy"	"1"
+				"engineer"	"1"
+				"pyro"	"1"
 			}
 			"visuals"
 			{
@@ -26370,6 +26408,26 @@
 			"item_description"		"#TF_sum23_medical_emergency_Desc"
 			"item_type_name"		"#TF_Wearable_Medkit"
 			"equip_region"		"medic_hip"
+			"image_inventory"		"backpack/workshop/player/items/medic/sum23_medical_emergency/sum23_medical_emergency"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/medic/sum23_medical_emergency/sum23_medical_emergency.mdl"
+			"used_by_classes"
+			{
+				"medic"		"1"
+			}
+		}
+		"31365"
+		{
+			"name"		"Medical Emergency"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_sum23_medical_emergency"
+			"item_description"		"#TF_sum23_medical_emergency_Desc"
+			"item_type_name"		"#TF_Wearable_Medkit"
+			"equip_region"		"medic_hip"
+			"item_slot"	"misc2"
 			"image_inventory"		"backpack/workshop/player/items/medic/sum23_medical_emergency/sum23_medical_emergency"
 			"capabilities"
 			{
@@ -29009,6 +29067,49 @@
 			"item_name"		"#TF_sum22_tropical_camo"
 			"item_description"		"#TF_sum22_tropical_camo_Desc"
 			"item_type_name"		"#TF_Wearable_Shirt"
+			"item_slot"	"misc"
+			"equip_region"		"shirt"
+			"image_inventory"		"backpack/workshop/player/items/sniper/sum22_tropical_camo/sum22_tropical_camo"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/sniper/sum22_tropical_camo/sum22_tropical_camo.mdl"
+			"used_by_classes"
+			{
+				"sniper"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/sniper/sum22_tropical_camo/sum22_tropical_camo.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_sum22_tropical_camo_style0"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/sniper/sum22_tropical_camo_style2/sum22_tropical_camo_style2.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_sum22_tropical_camo_style1"
+					}
+				}
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31270"
+		{
+			"name"		"Tropical Camo"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_sum22_tropical_camo"
+			"item_description"		"#TF_sum22_tropical_camo_Desc"
+			"item_type_name"		"#TF_Wearable_Shirt"
+			"item_slot"	"misc2"
 			"equip_region"		"shirt"
 			"image_inventory"		"backpack/workshop/player/items/sniper/sum22_tropical_camo/sum22_tropical_camo"
 			"capabilities"
@@ -29062,6 +29163,92 @@
 			"used_by_classes"
 			{
 				"medic"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"31420"
+		{
+			"name"		"The Puffed Practitioner"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_dec23_puffed_practitioner"
+			"item_description"		"#TF_dec23_puffed_practitioner_Desc"
+			"item_type_name"		"#TF_Wearable_Coat"
+			"equip_region"		"shirt"
+			"item_slot"	"misc2"
+			"propername"		"1"
+			"image_inventory"		"backpack/workshop/player/items/medic/dec23_puffed_practitioner/dec23_puffed_practitioner"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/medic/dec23_puffed_practitioner/dec23_puffed_practitioner.mdl"
+			"used_by_classes"
+			{
+				"medic"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"9912"
+		{
+			"name"		"Aloha Apparel"
+			"prefab"		"base_misc"
+			"item_class"	"tf_wearable"
+			"item_name"		"#TF_fall17_aloha_apparel"
+			"item_slot"     "misc"
+			"item_quality"	"unique"
+			"item_type_name"		"#TF_Wearable_Apparel"
+			"equip_region"		"shirt"
+			"show_in_armory"	"1"
+			"image_inventory"		"backpack/workshop/player/items/all_class/fall17_aloha_apparel/fall17_aloha_apparel"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player_per_class"
+			{
+				"scout"		"models/workshop/player/items/all_class/fall17_aloha_apparel/fall17_aloha_apparel_scout.mdl"
+				"spy"		"models/workshop/player/items/all_class/fall17_aloha_apparel/fall17_aloha_apparel_spy.mdl"
+				"engineer"		"models/workshop/player/items/all_class/fall17_aloha_apparel/fall17_aloha_apparel_engineer.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"spy"		"1"
+				"engineer"		"1"
+			}
+			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"9912"
+		{
+			"name"		"Aloha Apparel"
+			"prefab"		"base_misc"
+			"item_class"	"tf_wearable"
+			"item_name"		"#TF_fall17_aloha_apparel"
+			"item_slot"     "misc2"
+			"item_quality"	"unique"
+			"item_type_name"		"#TF_Wearable_Apparel"
+			"equip_region"		"shirt"
+			"show_in_armory"	"1"
+			"image_inventory"		"backpack/workshop/player/items/all_class/fall17_aloha_apparel/fall17_aloha_apparel"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player_per_class"
+			{
+				"scout"		"models/workshop/player/items/all_class/fall17_aloha_apparel/fall17_aloha_apparel_scout.mdl"
+				"spy"		"models/workshop/player/items/all_class/fall17_aloha_apparel/fall17_aloha_apparel_spy.mdl"
+				"engineer"		"models/workshop/player/items/all_class/fall17_aloha_apparel/fall17_aloha_apparel_engineer.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"spy"		"1"
+				"engineer"		"1"
 			}
 			"mouse_pressed_sound"		"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_drop.wav"
