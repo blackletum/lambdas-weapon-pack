@@ -23924,15 +23924,21 @@
 			"model_world"	"models/weapons/lambda/grenade/w_grenade_frag.mdl"
 			"static_attrs"
 			{
-				"item_meter_charge_type"						"1"
+				"item_meter_charge_type"			"1"
 				"item_meter_charge_rate"			"30"
-				"meter_label"							"Frag"
+				"meter_label"					"Frag"
 			}
 			"used_by_classes"
 			{
-				"scout"	"1"
+				"scout"		"1"
 				"sniper"	"1"
 				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy"		"1"
+				"engineer"	"1"
+				"pyro"		"1"
 			}
 			"attributes"
 			{
